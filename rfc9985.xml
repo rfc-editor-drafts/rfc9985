@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude" version="3" category="exp" docName="draft-ietf-bfd-optimizing-authentication-36" number="9985" updates="" obsoletes="" ipr="trust200902" submissionType="IETF" consensus="true" tocInclude="true" tocDepth="3" symRefs="true" sortRefs="true" xml:lang="en" prepTime="2026-06-19T19:24:24" indexInclude="true" scripts="Common,Latin">
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" version="3" category="exp" docName="draft-ietf-bfd-optimizing-authentication-36" number="9985" updates="" obsoletes="" ipr="trust200902" submissionType="IETF" consensus="true" tocInclude="true" tocDepth="3" symRefs="true" sortRefs="true" xml:lang="en" prepTime="2026-06-19T20:36:55" indexInclude="true" scripts="Common,Latin">
   <link href="https://datatracker.ietf.org/doc/draft-ietf-bfd-optimizing-authentication-36" rel="prev"/>
   <link href="https://dx.doi.org/10.17487/rfc9985" rel="alternate"/>
   <link href="urn:issn:2070-1721" rel="alternate"/>
@@ -15,7 +15,7 @@
         <email>mjethanandani@gmail.com</email>
       </address>
     </author>
-    <author fullname="Ashesh Mishra" initials="A" surname="Mishra">
+    <author fullname="Ashesh Mishra" initials="A." surname="Mishra">
       <organization showOnFrontPage="true">Aalyria Technologies</organization>
       <address>
         <email>ashesh@aalyria.com</email>
@@ -27,7 +27,7 @@
         <email>jeffrey.haas@hpe.com</email>
       </address>
     </author>
-    <author fullname="Ankur Saxena" initials="A" surname="Saxena">
+    <author fullname="Ankur Saxena" initials="A." surname="Saxena">
       <organization showOnFrontPage="true">Ciena Corporation</organization>
       <address>
         <postal>
@@ -1513,7 +1513,7 @@ val&gt;
           <email>mjethanandani@gmail.com</email>
         </address>
       </author>
-      <author fullname="Ashesh Mishra" initials="A" surname="Mishra">
+      <author fullname="Ashesh Mishra" initials="A." surname="Mishra">
         <organization showOnFrontPage="true">Aalyria Technologies</organization>
         <address>
           <email>ashesh@aalyria.com</email>
@@ -1525,7 +1525,7 @@ val&gt;
           <email>jeffrey.haas@hpe.com</email>
         </address>
       </author>
-      <author fullname="Ankur Saxena" initials="A" surname="Saxena">
+      <author fullname="Ankur Saxena" initials="A." surname="Saxena">
         <organization showOnFrontPage="true">Ciena Corporation</organization>
         <address>
           <postal>
