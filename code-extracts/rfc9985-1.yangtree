@@ -1,0 +1,21 @@
+module: ietf-bfd-opt-auth
+
+  augment /rt:routing/rt:control-plane-protocols
+            /rt:control-plane-protocol/bfd:bfd/bfd-ip-sh:ip-sh
+            /bfd-ip-sh:sessions/bfd-ip-sh:session
+            /bfd-ip-sh:authentication:
+    +--rw reauth-interval?   uint32
+  augment /rt:routing/rt:control-plane-protocols
+            /rt:control-plane-protocol/bfd:bfd/bfd-ip-mh:ip-mh
+            /bfd-ip-mh:session-groups/bfd-ip-mh:session-group
+            /bfd-ip-mh:authentication:
+    +--rw reauth-interval?   uint32
+  augment /rt:routing/rt:control-plane-protocols
+            /rt:control-plane-protocol/bfd:bfd/bfd-lag:lag
+            /bfd-lag:sessions/bfd-lag:session/bfd-lag:authentication:
+    +--rw reauth-interval?   uint32
+  augment /rt:routing/rt:control-plane-protocols
+            /rt:control-plane-protocol/bfd:bfd/bfd-mpls:mpls
+            /bfd-mpls:session-groups/bfd-mpls:session-group
+            /bfd-mpls:authentication:
+    +--rw reauth-interval?   uint32

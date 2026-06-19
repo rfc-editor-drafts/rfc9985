@@ -61,7 +61,7 @@
         <email>mnvbhatia@google.com</email>
       </address>
     </author>
-    <date year="2025" month="June"/>
+    <date year="2026" month="June"/>
     <area>RTG</area>
     <workgroup>bfd</workgroup>
 
@@ -507,7 +507,7 @@ module: ietf-bfd-opt-auth
         </t>
         <t>Implementations supporting the optimization procedures defined in this document enable optimization by using one of the newly defined key-chain crypto-algorithms in the ietf-bfd-met-keyed-isaac YANG module in <xref target="RFC9986"/>.</t>
 
-        <sourcecode markers="true" name="ietf-bfd-opt-auth@2026-05-19.yang" type="yang"><![CDATA[
+        <sourcecode markers="true" name="ietf-bfd-opt-auth@2026-06-19.yang" type="yang"><![CDATA[
 module ietf-bfd-opt-auth {
   yang-version 1.1;
   namespace "urn:ietf:params:xml:ns:yang:ietf-bfd-opt-auth";
@@ -593,7 +593,7 @@ module ietf-bfd-opt-auth {
      (https://www.rfc-editor.org/info/rfc9985); see the RFC itself
      for full legal notices.";
 
-  revision "2026-05-19" {
+  revision "2026-06-19" {
     description
       "Initial Version.";
     reference
