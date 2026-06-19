@@ -12,7 +12,7 @@ ISSN: 2070-1721                                     Aalyria Technologies
                                                        Ciena Corporation
                                                                M. Bhatia
                                                                   Google
-                                                               June 2025
+                                                               June 2026
 
 
    Optimizing Bidirectional Forwarding Detection (BFD) Authentication
@@ -49,7 +49,7 @@ Status of This Memo
 
 Copyright Notice
 
-   Copyright (c) 2025 IETF Trust and the persons identified as the
+   Copyright (c) 2026 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -482,7 +482,7 @@ Table of Contents
    key-chain crypto-algorithms in the ietf-bfd-met-keyed-isaac YANG
    module in [RFC9986].
 
-   <CODE BEGINS> file "ietf-bfd-opt-auth@2026-05-19.yang"
+   <CODE BEGINS> file "ietf-bfd-opt-auth@2026-06-19.yang"
    module ietf-bfd-opt-auth {
      yang-version 1.1;
      namespace "urn:ietf:params:xml:ns:yang:ietf-bfd-opt-auth";
@@ -568,7 +568,7 @@ Table of Contents
         (https://www.rfc-editor.org/info/rfc9985); see the RFC itself
         for full legal notices.";
 
-     revision "2026-05-19" {
+     revision "2026-06-19" {
        description
          "Initial Version.";
        reference
